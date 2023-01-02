@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="EN-US">
+  <head>
+    <meta charset="utf-8">
+    <title>akaify</title>
+    <meta name="description" content="akaify">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="app.css">
+  </head>
+  <body>
+    <div id="drop_zone"
+	 ondrop="dropHandler(event);"
+	 ondragover="dragOverHandler(event);">
+      <p>Drag a wave file here</p>
+    </div>
+    <script src="https://unpkg.com/wavefile"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
